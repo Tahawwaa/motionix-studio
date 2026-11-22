@@ -1,0 +1,57 @@
+[
+  {
+    "file": "examples/nova-intro/screenshots/editor.jpg",
+    "source": "http://127.0.0.1:5173/",
+    "capturedAt": "2026-11-22T05:52:09.125Z",
+    "width": 1280,
+    "height": 720,
+    "capture": "actual browser viewport",
+    "browserChrome": false,
+    "repainted": false,
+    "sha256": "410bb2b2f705dded269b909d4828dc98eb5f0d03554f7c260fa837c1ebbb220c"
+  },
+  {
+    "file": "examples/nova-intro/screenshots/templates.jpg",
+    "source": "http://127.0.0.1:5173/",
+    "capturedAt": "2026-11-22T05:52:45.813Z",
+    "width": 1280,
+    "height": 720,
+    "capture": "actual browser viewport",
+    "browserChrome": false,
+    "repainted": false,
+    "sha256": "cdbab7a2b031cb59fc62c620017e0a94aa0d1f531eb831d5686b71b79ef3e0bb"
+  },
+  {
+    "file": "examples/nova-intro/screenshots/three-editor.jpg",
+    "source": "http://127.0.0.1:5173/",
+    "capturedAt": "2026-11-22T05:52:58.534Z",
+    "width": 1280,
+    "height": 720,
+    "capture": "actual browser viewport",
+    "browserChrome": false,
+    "repainted": false,
+    "sha256": "f9b5d32a4de312e3666f68fadf84cdc679460382c4d12cab0d86f5d9c838f3f5"
+  },
+  {
+    "file": "examples/nova-intro/screenshots/director.jpg",
+    "source": "http://127.0.0.1:5173/",
+    "capturedAt": "2026-11-22T05:53:17.241Z",
+    "width": 1280,
+    "height": 720,
+    "capture": "actual browser viewport",
+    "browserChrome": false,
+    "repainted": false,
+    "sha256": "0186478d186aa6169c5f295978c20918126ebfc4843b173ae66a767ba85d1eca"
+  },
+  {
+    "file": "examples/nova-intro/screenshots/export.jpg",
+    "source": "http://127.0.0.1:5173/",
+    "capturedAt": "2026-11-22T05:53:25.258Z",
+    "width": 1280,
+    "height": 720,
+    "capture": "actual browser viewport",
+    "browserChrome": false,
+    "repainted": false,
+    "sha256": "86da92d189eac561bb92b79ba2205d6ef9761c3655e117b3dbcc782510f890a9"
+  }
+]

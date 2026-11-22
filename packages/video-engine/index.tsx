@@ -637,6 +637,7 @@ function Browser({
       </div>
       {screenshot && (
         <Img
+          crossOrigin="anonymous"
           src={screenshot}
           style={{
             position: "absolute",
@@ -1585,6 +1586,7 @@ function UserLayer({
     return (
       <div style={s}>
         <Img
+          crossOrigin="anonymous"
           src={src}
           style={{ width: "100%", height: "100%", objectFit: "contain" }}
         />
