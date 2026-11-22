@@ -1,0 +1,50 @@
+{
+  "id": "79e226fc-1a9d-4695-8120-2d473151757f",
+  "kind": "contact-sheet",
+  "status": "completed",
+  "progress": 1,
+  "logs": [
+    "Queued for the local renderer.",
+    "Preparing the shared Remotion composition.",
+    "Composition ready: 540 × 960, 30 fps, 900 frames.",
+    "Contact sheet: frame 108 (1/6).",
+    "Contact sheet: frame 252 (2/6).",
+    "Contact sheet: frame 455 (3/6).",
+    "Contact sheet: frame 581 (4/6).",
+    "Contact sheet: frame 743 (5/6).",
+    "Contact sheet: frame 833 (6/6).",
+    "Output verified and ready to download."
+  ],
+  "createdAt": "2026-11-22T05:17:15.234Z",
+  "projectId": "846386a6-9eb4-4ad4-b0cb-c91c49a75b8a",
+  "projectName": "02 — SaaS Product Commercial",
+  "projectHash": "1357f0dbecc406b7a6ae664356775211ba62da480a5531636797bf17af3142b6",
+  "preset": "draft",
+  "format": "png",
+  "startedAt": "2026-11-22T05:17:16.798Z",
+  "output": "/worker/outputs/79e226fc-1a9d-4695-8120-2d473151757f.png",
+  "metadata": {
+    "projectHash": "1357f0dbecc406b7a6ae664356775211ba62da480a5531636797bf17af3142b6",
+    "sourceWidth": 1080,
+    "sourceHeight": 1920,
+    "width": 540,
+    "height": 960,
+    "fps": 30,
+    "frames": [
+      108,
+      252,
+      455,
+      581,
+      743,
+      833
+    ],
+    "preset": "draft",
+    "renderer": "Remotion",
+    "rendererVersion": "nova/0.1.0",
+    "engineSourceHash": "b83c32a267e8b4ce6c09b0a2855b78ed3620a451a80d10ec83b0153827bd04c1",
+    "hardwareEncoding": false,
+    "contactSheetLayoutVersion": 2
+  },
+  "elapsedMs": 6659,
+  "completedAt": "2026-11-22T05:17:23.457Z"
+}

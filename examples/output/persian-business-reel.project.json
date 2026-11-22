@@ -1,0 +1,239 @@
+{
+  "schemaVersion": 1,
+  "id": "e00787ac-b14e-4d87-bf2a-b7db0b59a72d",
+  "name": "03 — Persian Business Reel",
+  "description": "Persian-first storytelling for an ambitious business.",
+  "width": 1080,
+  "height": 1920,
+  "fps": 30,
+  "scenes": [
+    {
+      "id": "6bf51fd4-615f-4a41-a9be-86bbfd51b15b",
+      "name": "Cinematic Business Advertisement",
+      "type": "business",
+      "startFrame": 0,
+      "duration": 216,
+      "background": "#09090B",
+      "accent": "#2563EB",
+      "title": "وب‌سایت شما،\nشروع یک داستان\nبزرگ‌تر.",
+      "subtitle": "طراحی حرفه‌ای، برای کسب‌وکارهای آینده‌نگر",
+      "eyebrow": "طراحی وب‌سایت حرفه‌ای",
+      "layers": [
+        {
+          "id": "d5d7fba8-5ad8-4bde-bf15-b4b5255b766f",
+          "name": "Original ambient score",
+          "type": "audio",
+          "trackId": "sound",
+          "startFrame": 0,
+          "duration": 216,
+          "x": 50,
+          "y": 50,
+          "width": 80,
+          "height": 20,
+          "rotation": 0,
+          "scale": 1,
+          "opacity": 1,
+          "zIndex": 1,
+          "text": "",
+          "assetId": "7dea98d9-7bad-49bd-8992-18cd28752024",
+          "color": "#F8FAFC",
+          "fontSize": 80,
+          "fontFamily": "Inter",
+          "fontWeight": 600,
+          "direction": "auto",
+          "align": "center",
+          "animation": "none",
+          "keyframes": [],
+          "volume": 0.7,
+          "trimStart": 0,
+          "visible": true
+        }
+      ],
+      "transition": "fade",
+      "transitionDuration": 18,
+      "effects": [
+        "grain",
+        "vignette"
+      ],
+      "camera": {
+        "projection": "perspective",
+        "path": "orbit",
+        "intensity": 0.6,
+        "fov": 42
+      }
+    },
+    {
+      "id": "09cd7809-78fc-49d0-a6e5-e62a629fe50c",
+      "name": "A closer look",
+      "type": "orbit",
+      "startFrame": 216,
+      "duration": 189,
+      "background": "#09090B",
+      "accent": "#2563EB",
+      "title": "زیبایی در جزئیات.",
+      "subtitle": "سریع، زیبا و قابل اعتماد",
+      "eyebrow": "طراحی وب‌سایت حرفه‌ای",
+      "layers": [
+        {
+          "id": "df5f51c8-bc21-42d6-8d46-24143107e3bb",
+          "name": "Original ambient score",
+          "type": "audio",
+          "trackId": "sound",
+          "startFrame": 0,
+          "duration": 189,
+          "x": 50,
+          "y": 50,
+          "width": 80,
+          "height": 20,
+          "rotation": 0,
+          "scale": 1,
+          "opacity": 1,
+          "zIndex": 1,
+          "text": "",
+          "assetId": "7dea98d9-7bad-49bd-8992-18cd28752024",
+          "color": "#F8FAFC",
+          "fontSize": 80,
+          "fontFamily": "Inter",
+          "fontWeight": 600,
+          "direction": "auto",
+          "align": "center",
+          "animation": "none",
+          "keyframes": [],
+          "volume": 0.7,
+          "trimStart": 216,
+          "visible": true
+        }
+      ],
+      "transition": "zoom",
+      "transitionDuration": 18,
+      "effects": [
+        "grain",
+        "vignette",
+        "light-sweep"
+      ],
+      "camera": {
+        "projection": "perspective",
+        "path": "orbit",
+        "intensity": 0.6,
+        "fov": 42
+      }
+    },
+    {
+      "id": "ac2eb6f5-1567-4cdd-92b9-ef0ef6bd26e1",
+      "name": "The invitation",
+      "type": "brand",
+      "startFrame": 405,
+      "duration": 135,
+      "background": "#09090B",
+      "accent": "#2563EB",
+      "title": "آینده کسب‌وکارت\nاز اینجا شروع می‌شه.",
+      "subtitle": "برای شروع، پیام بدهید",
+      "eyebrow": "با هم بسازیم",
+      "layers": [
+        {
+          "id": "32848564-134f-4de8-a0d2-40c2cc1271b9",
+          "name": "Original ambient score",
+          "type": "audio",
+          "trackId": "sound",
+          "startFrame": 0,
+          "duration": 135,
+          "x": 50,
+          "y": 50,
+          "width": 80,
+          "height": 20,
+          "rotation": 0,
+          "scale": 1,
+          "opacity": 1,
+          "zIndex": 1,
+          "text": "",
+          "assetId": "7dea98d9-7bad-49bd-8992-18cd28752024",
+          "color": "#F8FAFC",
+          "fontSize": 80,
+          "fontFamily": "Inter",
+          "fontWeight": 600,
+          "direction": "auto",
+          "align": "center",
+          "animation": "none",
+          "keyframes": [],
+          "volume": 0.7,
+          "trimStart": 405,
+          "visible": true
+        }
+      ],
+      "transition": "fade",
+      "transitionDuration": 18,
+      "effects": [
+        "grain",
+        "vignette"
+      ],
+      "camera": {
+        "projection": "perspective",
+        "path": "orbit",
+        "intensity": 0.6,
+        "fov": 42
+      }
+    }
+  ],
+  "tracks": [
+    {
+      "id": "visual",
+      "name": "Scenes",
+      "type": "scene",
+      "locked": false,
+      "hidden": false,
+      "muted": false,
+      "solo": false
+    },
+    {
+      "id": "type",
+      "name": "Typography",
+      "type": "text",
+      "locked": false,
+      "hidden": false,
+      "muted": false,
+      "solo": false
+    },
+    {
+      "id": "media",
+      "name": "Media",
+      "type": "image",
+      "locked": false,
+      "hidden": false,
+      "muted": false,
+      "solo": false
+    },
+    {
+      "id": "sound",
+      "name": "Sound design",
+      "type": "audio",
+      "locked": false,
+      "hidden": false,
+      "muted": false,
+      "solo": false
+    }
+  ],
+  "assets": [
+    {
+      "id": "7dea98d9-7bad-49bd-8992-18cd28752024",
+      "name": "nova-original-score.wav",
+      "type": "audio",
+      "path": "/storage/assets/7dea98d9-7bad-49bd-8992-18cd28752024.wav",
+      "mime": "audio/wav",
+      "size": 1323044,
+      "tags": [],
+      "folder": "Library",
+      "createdAt": "2026-11-22T05:11:47+00:00"
+    }
+  ],
+  "brand": {
+    "name": "NOVA Studio",
+    "primary": "#2563EB",
+    "secondary": "#06B6D4",
+    "background": "#09090B",
+    "font": "Vazirmatn",
+    "cta": "Let’s build something extraordinary."
+  },
+  "archived": false,
+  "createdAt": "2026-11-22T05:17:01.658Z",
+  "updatedAt": "2026-11-22T05:17:25+00:00"
+}

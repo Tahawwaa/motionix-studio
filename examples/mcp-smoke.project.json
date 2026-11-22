@@ -1,0 +1,130 @@
+{
+  "schemaVersion": 1,
+  "id": "fea28b23-c9b2-426b-8c63-5c425b08243e",
+  "name": "MCP verification — Persian motion",
+  "description": "Persian-first storytelling for an ambitious business.",
+  "width": 540,
+  "height": 960,
+  "fps": 30,
+  "scenes": [
+    {
+      "id": "5809d419-7f2c-4e21-ad97-cb6ad152378a",
+      "name": "Cinematic Business Advertisement",
+      "type": "business",
+      "startFrame": 0,
+      "duration": 30,
+      "background": "#09090B",
+      "accent": "#06B6D4",
+      "title": "ایده‌های بزرگ،\nدر حرکت.",
+      "subtitle": "ساخته‌شده با کنترل واقعی MCP",
+      "eyebrow": "NOVA · آزمون واقعی",
+      "layers": [
+        {
+          "id": "9fbab3a6-c239-4439-be54-eeae24aa6932",
+          "name": "Editable Persian overlay",
+          "type": "text",
+          "trackId": "type",
+          "startFrame": 0,
+          "duration": 30,
+          "x": 50,
+          "y": 80,
+          "width": 85,
+          "height": 20,
+          "rotation": 0,
+          "scale": 1,
+          "opacity": 1,
+          "zIndex": 1,
+          "text": "از ایده تا تصویر",
+          "color": "#F8FAFC",
+          "fontSize": 65,
+          "fontFamily": "Vazirmatn",
+          "fontWeight": 600,
+          "direction": "rtl",
+          "align": "center",
+          "animation": "scale",
+          "keyframes": [
+            {
+              "id": "mcp-scale-0",
+              "frame": 0,
+              "property": "scale",
+              "value": 0.9,
+              "easing": "ease-in-out"
+            },
+            {
+              "id": "mcp-scale-20",
+              "frame": 20,
+              "property": "scale",
+              "value": 1.1,
+              "easing": "ease-out"
+            }
+          ],
+          "volume": 1,
+          "trimStart": 0,
+          "visible": true
+        }
+      ],
+      "transition": "fade",
+      "transitionDuration": 6,
+      "effects": [
+        "grain",
+        "vignette"
+      ],
+      "camera": {
+        "projection": "perspective",
+        "path": "dolly-in",
+        "intensity": 0.6,
+        "fov": 42
+      }
+    }
+  ],
+  "tracks": [
+    {
+      "id": "visual",
+      "name": "Scenes",
+      "type": "scene",
+      "locked": false,
+      "hidden": false,
+      "muted": false,
+      "solo": false
+    },
+    {
+      "id": "type",
+      "name": "Typography",
+      "type": "text",
+      "locked": false,
+      "hidden": false,
+      "muted": false,
+      "solo": false
+    },
+    {
+      "id": "media",
+      "name": "Media",
+      "type": "image",
+      "locked": false,
+      "hidden": false,
+      "muted": false,
+      "solo": false
+    },
+    {
+      "id": "sound",
+      "name": "Sound design",
+      "type": "audio",
+      "locked": false,
+      "hidden": false,
+      "muted": false,
+      "solo": false
+    }
+  ],
+  "assets": [],
+  "brand": {
+    "name": "NOVA Studio",
+    "primary": "#2563EB",
+    "secondary": "#06B6D4",
+    "background": "#09090B",
+    "font": "Vazirmatn",
+    "cta": "Let’s build something extraordinary."
+  },
+  "archived": false,
+  "createdAt": "2026-11-22T05:17:39.062Z",
+  "updatedAt": "2026-11-22T05:17:39+00:00"
+}

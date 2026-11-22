@@ -1,0 +1,41 @@
+[
+  {
+    "name": "01 — Website Commercial",
+    "path": "examples/output/website-commercial.mp4",
+    "bytes": 1162429,
+    "duration": "20.011000",
+    "pixelFormat": "yuv420p",
+    "width": 540,
+    "height": 960,
+    "fps": "30/1",
+    "audio": "aac",
+    "elapsedMs": 54904,
+    "jobId": "5e4a4df1-9ed0-45e0-ab05-b88fdd9dacdd"
+  },
+  {
+    "name": "02 — SaaS Product Commercial",
+    "path": "examples/output/saas-product-commercial.mp4",
+    "bytes": 1681442,
+    "duration": "30.016000",
+    "pixelFormat": "yuv420p",
+    "width": 540,
+    "height": 960,
+    "fps": "30/1",
+    "audio": "aac",
+    "elapsedMs": 81563,
+    "jobId": "59f17405-4afd-474f-a18a-61d29bd99cee"
+  },
+  {
+    "name": "03 — Persian Business Reel",
+    "path": "examples/output/persian-business-reel.mp4",
+    "bytes": 1032515,
+    "duration": "18.005000",
+    "pixelFormat": "yuv420p",
+    "width": 540,
+    "height": 960,
+    "fps": "30/1",
+    "audio": "aac",
+    "elapsedMs": 49224,
+    "jobId": "b34adb93-a63e-4c51-bc61-bb531e4e9986"
+  }
+]

@@ -1,0 +1,239 @@
+{
+  "schemaVersion": 1,
+  "id": "846386a6-9eb4-4ad4-b0cb-c91c49a75b8a",
+  "name": "02 — SaaS Product Commercial",
+  "description": "Living analytics, precision cards, a new perspective.",
+  "width": 1080,
+  "height": 1920,
+  "fps": 30,
+  "scenes": [
+    {
+      "id": "baa20c17-699f-4e20-a276-7fa11a5db9b3",
+      "name": "Luxury SaaS Commercial",
+      "type": "saas",
+      "startFrame": 0,
+      "duration": 360,
+      "background": "#09090B",
+      "accent": "#A3E635",
+      "title": "Less friction.\nMore possibility.",
+      "subtitle": "One workspace. Your next breakthrough.",
+      "eyebrow": "A BETTER WAY TO WORK",
+      "layers": [
+        {
+          "id": "74f0fa78-a018-4f85-9429-07972b89b0ae",
+          "name": "Original ambient score",
+          "type": "audio",
+          "trackId": "sound",
+          "startFrame": 0,
+          "duration": 360,
+          "x": 50,
+          "y": 50,
+          "width": 80,
+          "height": 20,
+          "rotation": 0,
+          "scale": 1,
+          "opacity": 1,
+          "zIndex": 1,
+          "text": "",
+          "assetId": "7dea98d9-7bad-49bd-8992-18cd28752024",
+          "color": "#F8FAFC",
+          "fontSize": 80,
+          "fontFamily": "Inter",
+          "fontWeight": 600,
+          "direction": "auto",
+          "align": "center",
+          "animation": "none",
+          "keyframes": [],
+          "volume": 0.7,
+          "trimStart": 0,
+          "visible": true
+        }
+      ],
+      "transition": "fade",
+      "transitionDuration": 18,
+      "effects": [
+        "grain",
+        "vignette"
+      ],
+      "camera": {
+        "projection": "perspective",
+        "path": "orbit",
+        "intensity": 0.6,
+        "fov": 42
+      }
+    },
+    {
+      "id": "7533d088-f675-4ccb-977b-661c256b8678",
+      "name": "A closer look",
+      "type": "orbit",
+      "startFrame": 360,
+      "duration": 315,
+      "background": "#09090B",
+      "accent": "#A3E635",
+      "title": "Details that\nmake the difference.",
+      "subtitle": "Thoughtfully crafted. Effortlessly connected.",
+      "eyebrow": "A BETTER WAY TO WORK",
+      "layers": [
+        {
+          "id": "637e8994-3051-4444-b68a-87ed5c14d2eb",
+          "name": "Original ambient score",
+          "type": "audio",
+          "trackId": "sound",
+          "startFrame": 0,
+          "duration": 315,
+          "x": 50,
+          "y": 50,
+          "width": 80,
+          "height": 20,
+          "rotation": 0,
+          "scale": 1,
+          "opacity": 1,
+          "zIndex": 1,
+          "text": "",
+          "assetId": "7dea98d9-7bad-49bd-8992-18cd28752024",
+          "color": "#F8FAFC",
+          "fontSize": 80,
+          "fontFamily": "Inter",
+          "fontWeight": 600,
+          "direction": "auto",
+          "align": "center",
+          "animation": "none",
+          "keyframes": [],
+          "volume": 0.7,
+          "trimStart": 360,
+          "visible": true
+        }
+      ],
+      "transition": "zoom",
+      "transitionDuration": 18,
+      "effects": [
+        "grain",
+        "vignette",
+        "light-sweep"
+      ],
+      "camera": {
+        "projection": "perspective",
+        "path": "orbit",
+        "intensity": 0.6,
+        "fov": 42
+      }
+    },
+    {
+      "id": "ecedd572-97a6-45c5-a6a3-99778454cf89",
+      "name": "The invitation",
+      "type": "brand",
+      "startFrame": 675,
+      "duration": 225,
+      "background": "#09090B",
+      "accent": "#A3E635",
+      "title": "Your next chapter\nstarts here.",
+      "subtitle": "Let’s make something extraordinary.",
+      "eyebrow": "LET’S CREATE",
+      "layers": [
+        {
+          "id": "a07cb51a-78f9-45a4-ae54-6aa3434184d9",
+          "name": "Original ambient score",
+          "type": "audio",
+          "trackId": "sound",
+          "startFrame": 0,
+          "duration": 225,
+          "x": 50,
+          "y": 50,
+          "width": 80,
+          "height": 20,
+          "rotation": 0,
+          "scale": 1,
+          "opacity": 1,
+          "zIndex": 1,
+          "text": "",
+          "assetId": "7dea98d9-7bad-49bd-8992-18cd28752024",
+          "color": "#F8FAFC",
+          "fontSize": 80,
+          "fontFamily": "Inter",
+          "fontWeight": 600,
+          "direction": "auto",
+          "align": "center",
+          "animation": "none",
+          "keyframes": [],
+          "volume": 0.7,
+          "trimStart": 675,
+          "visible": true
+        }
+      ],
+      "transition": "fade",
+      "transitionDuration": 18,
+      "effects": [
+        "grain",
+        "vignette"
+      ],
+      "camera": {
+        "projection": "perspective",
+        "path": "orbit",
+        "intensity": 0.6,
+        "fov": 42
+      }
+    }
+  ],
+  "tracks": [
+    {
+      "id": "visual",
+      "name": "Scenes",
+      "type": "scene",
+      "locked": false,
+      "hidden": false,
+      "muted": false,
+      "solo": false
+    },
+    {
+      "id": "type",
+      "name": "Typography",
+      "type": "text",
+      "locked": false,
+      "hidden": false,
+      "muted": false,
+      "solo": false
+    },
+    {
+      "id": "media",
+      "name": "Media",
+      "type": "image",
+      "locked": false,
+      "hidden": false,
+      "muted": false,
+      "solo": false
+    },
+    {
+      "id": "sound",
+      "name": "Sound design",
+      "type": "audio",
+      "locked": false,
+      "hidden": false,
+      "muted": false,
+      "solo": false
+    }
+  ],
+  "assets": [
+    {
+      "id": "7dea98d9-7bad-49bd-8992-18cd28752024",
+      "name": "nova-original-score.wav",
+      "type": "audio",
+      "path": "/storage/assets/7dea98d9-7bad-49bd-8992-18cd28752024.wav",
+      "mime": "audio/wav",
+      "size": 1323044,
+      "tags": [],
+      "folder": "Library",
+      "createdAt": "2026-11-22T05:11:47+00:00"
+    }
+  ],
+  "brand": {
+    "name": "NOVA Studio",
+    "primary": "#A3E635",
+    "secondary": "#06B6D4",
+    "background": "#09090B",
+    "font": "Inter",
+    "cta": "Let’s build something extraordinary."
+  },
+  "archived": false,
+  "createdAt": "2026-11-22T05:15:09.350Z",
+  "updatedAt": "2026-11-22T05:15:19+00:00"
+}

@@ -1,0 +1,37 @@
+{
+  "id": "c4294bbd-7227-4692-af0c-5d69d0288e6f",
+  "kind": "frame",
+  "status": "completed",
+  "progress": 1,
+  "logs": [
+    "Queued for the local renderer.",
+    "Preparing the shared Remotion composition.",
+    "Composition ready: 540 × 960, 30 fps, 600 frames.",
+    "Rendered frame 60.",
+    "Output verified and ready to download."
+  ],
+  "createdAt": "2026-11-22T05:15:09.397Z",
+  "projectId": "d49d32c7-f9e2-47f4-ad9b-3a8704460822",
+  "projectName": "01 — Website Commercial",
+  "projectHash": "6fb1b14febc2ee8c5dc04741308398859d963e18c0f59c32b967301f01d6842f",
+  "preset": "draft",
+  "format": "png",
+  "frame": 60,
+  "startedAt": "2026-11-22T05:15:09.398Z",
+  "output": "/worker/outputs/c4294bbd-7227-4692-af0c-5d69d0288e6f.png",
+  "metadata": {
+    "projectHash": "6fb1b14febc2ee8c5dc04741308398859d963e18c0f59c32b967301f01d6842f",
+    "sourceWidth": 1080,
+    "sourceHeight": 1920,
+    "width": 540,
+    "height": 960,
+    "fps": 30,
+    "frames": 600,
+    "preset": "draft",
+    "renderer": "Remotion",
+    "hardwareEncoding": false,
+    "frame": 60
+  },
+  "elapsedMs": 3992,
+  "completedAt": "2026-11-22T05:15:13.390Z"
+}
