@@ -15,3 +15,10 @@ apps/backend/storage/app/private/*
 apps/backend/storage/app/public/*
 test-results/
 playwright-report/
+
+# Generated demo videos stay local (temporary push exclusion)
+/examples/**/*.mp4
+/examples/**/*.webm
+/examples/**/*.mov
+/examples/**/*.mkv
+/examples/**/*.avi
